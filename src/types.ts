@@ -1,0 +1,21 @@
+export type TabId = 'home' | 'explore' | 'plan' | 'orders' | 'account';
+export type Sortable = {enabled: boolean; sortOrder: number};
+export type Asset = {url: string; altText: string};
+export type NavigationItem = Sortable & {id: TabId; label: string; icon: string; target: 'native' | 'shopify'; path: string};
+export type Banner = Sortable & {id: string; eyebrow: string; title: string; subtitle: string; ctaLabel: string; path: string; imageAssetId: string; imageUrl?: string; backgroundColor: string; textColor: string};
+export type Collection = Sortable & {id: string; title: string; subtitle: string; path: string; imageAssetId: string; imageUrl?: string};
+export type ProductRail = Sortable & {id: string; title: string; subtitle: string; maxItems: number};
+export type Product = Sortable & {id: string; railId: string; title: string; subtitle: string; badge: string; priceLabel: string; path: string; imageAssetId: string; imageUrl?: string; cuisine: string; diet: string; cities: string[]};
+export type QuickLink = Sortable & {id: string; title: string; subtitle: string; icon: string; path: string};
+export type HomeSectionType = 'banners' | 'collections' | 'product_rail' | 'quick_links' | 'message';
+export type HomeSection = Sortable & {id: string; type: HomeSectionType; title: string; subtitle: string; referenceId: string};
+export type ContactAction = Sortable & {id: string; title: string; subtitle: string; channel: 'email' | 'whatsapp'; recipient: string; subject: string; body: string};
+export type InAppMessage = Sortable & {id: string; title: string; body: string; style: 'info' | 'success' | 'warning'; ctaLabel: string; path: string; startsAt: string; endsAt: string};
+export type AppConfig = {
+  meta: {schemaVersion: number; contentVersion: string; publishedAt: string};
+  settings: {storeName: string; announcementEnabled: boolean; announcementText: string; supportEmail: string; whatsappNumber: string; defaultCity: string; currency: string; cacheMinutes: number; maintenanceMode: boolean; maintenanceTitle: string; maintenanceBody: string; maintenanceCtaLabel: string};
+  assets: Record<string, Asset>; navigation: NavigationItem[]; banners: Banner[]; collections: Collection[]; productRails: ProductRail[]; products: Product[]; quickLinks: QuickLink[]; homeSections: HomeSection[]; copy: Record<string, string>; contactActions: ContactAction[]; featureFlags: Record<string, boolean>; messages: InAppMessage[]; cities: string[];
+};
+export type Preferences = {city: string; favourites: string[]; reminderHour: number; reminderMinute: number; dismissedMessages: string[]};
+export type BrowserRequest = {url: string; title: string; serial: number};
+export type ContentState = {config: AppConfig; source: 'bundled' | 'cache' | 'remote'; refreshing: boolean; warning: string | null; refresh: () => Promise<void>};

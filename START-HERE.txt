@@ -1,0 +1,21 @@
+TIFFINSTASH MOBILE 5.0 — START HERE
+
+1. Open the control sheet:
+   https://docs.google.com/spreadsheets/d/1JlwEy-d50j9wXaw_q0TYmX2fzpOhARNB7acZhisnbVc/edit
+
+2. Follow docs/SPREADSHEET-SETUP.md once to attach and deploy apps-script/Code.gs.
+
+3. In this folder run:
+   npm ci
+   cp .env.example .env
+   # Add the Apps Script /exec URL to .env
+   npm run validate
+   npm start
+
+4. Build private preview apps with the preview EAS profile. They install beside the live apps.
+
+5. Before production, complete docs/RELEASE-CHECKLIST.md. Production must update:
+   iOS bundle org.tiffinstash.app / App Store ID 6505018028
+   Android package com.tiffinstash
+
+This package contains source and the control workbook, not signed store binaries.

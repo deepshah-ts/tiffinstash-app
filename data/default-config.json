@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "schemaVersion": 1,
+    "contentVersion": "2026.09.12.1",
+    "publishedAt": "2026-09-12T00:00:00.000Z"
+  },
+  "settings": {
+    "storeName": "TiffinStash",
+    "announcementEnabled": true,
+    "announcementText": "Fresh home-style meals, delivered across the GTA",
+    "supportEmail": "info@tiffinstash.com",
+    "whatsappNumber": "14379373267",
+    "defaultCity": "All areas",
+    "currency": "CAD",
+    "cacheMinutes": 15,
+    "maintenanceMode": false,
+    "maintenanceTitle": "We’ll be right back",
+    "maintenanceBody": "TiffinStash is getting a quick refresh. You can still shop on the website.",
+    "maintenanceCtaLabel": "Open tiffinstash.com"
+  },
+  "assets": {
+    "logo_wordmark": {
+      "url": "https://tiffinstash.com/cdn/shop/files/Primary_Logo_2_bcd35983-7aaf-4df7-981e-0e5bb4e1489c_360x.png?v=1746643091",
+      "altText": "TiffinStash"
+    },
+    "hero_tiffin": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/d-tiffin_2INb.png?v=1778018126737",
+      "altText": "Fresh TiffinStash meal"
+    },
+    "hero_healthy": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/d-healthymeal_sue2.png?v=1778018127127",
+      "altText": "Healthy meal from TiffinStash"
+    },
+    "hero_rasoi": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/d-rasoi_vYIM.png?v=1778018127200",
+      "altText": "Rasoi Essentials"
+    },
+    "cuisine_punjabi": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/punjabi_uwMk.png?v=1754042952474",
+      "altText": "Punjabi meal"
+    },
+    "cuisine_gujarati": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/gujarati_XoCk.png?v=1754042953178",
+      "altText": "Gujarati meal"
+    },
+    "cuisine_swaminarayan": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/swami_JUej.png?v=1754042953681",
+      "altText": "Swaminarayan meal"
+    },
+    "cuisine_south_indian": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/southindian_aDxH.png?v=1754042952400",
+      "altText": "South Indian meal"
+    },
+    "cuisine_jain": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/jain_ziPJ.png?v=1774288819935",
+      "altText": "Jain meal"
+    },
+    "cuisine_nigerian": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/Nigerian.png?v=1773348919554",
+      "altText": "Nigerian meal"
+    },
+    "cuisine_pakistani": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/pakistani_pKHj.png?v=1764842980190",
+      "altText": "Pakistani meal"
+    },
+    "cuisine_north_indian": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/North_Indian.png?v=1765281455742",
+      "altText": "North Indian meal"
+    },
+    "cuisine_indo_chinese": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/Indo-Chinese_3.png?v=1782323612669",
+      "altText": "Indo-Chinese meal"
+    },
+    "seller_indias_flavour": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/bestsellersd_WdDz.png?v=1780514155714",
+      "altText": "India’s Flavour meal"
+    },
+    "seller_lals_kitchen": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/bestsellersd1_FS4l.png?v=1784581831505",
+      "altText": "Lal’s Kitchen meal"
+    },
+    "seller_krishnas_kitchen": {
+      "url": "https://cdn.shopify.com/s/files/1/0572/9982/8907/files/bestsellersd_xIMU.png?v=1784581831870",
+      "altText": "Krishna’s Kitchen meal"
+    }
+  },
+  "navigation": [
+    {"id": "home", "label": "Home", "icon": "home-outline", "target": "native", "path": "", "enabled": true, "sortOrder": 10},
+    {"id": "explore", "label": "Browse", "icon": "search-outline", "target": "native", "path": "", "enabled": true, "sortOrder": 20},
+    {"id": "plan", "label": "My Plan", "icon": "calendar-outline", "target": "native", "path": "", "enabled": true, "sortOrder": 30},
+    {"id": "orders", "label": "Orders", "icon": "receipt-outline", "target": "native", "path": "", "enabled": true, "sortOrder": 40},
+    {"id": "account", "label": "Account", "icon": "person-outline", "target": "native", "path": "", "enabled": true, "sortOrder": 50}
+  ],
+  "banners": [
+    {"id": "fresh_home_style", "eyebrow": "FRESH. FAMILIAR. DELIVERED.", "title": "A taste of home, without the daily cooking.", "subtitle": "Explore trusted kitchens and flexible meal plans across the GTA.", "ctaLabel": "Explore tiffins", "path": "/collections/tiffins", "imageAssetId": "hero_tiffin", "backgroundColor": "#DE5200", "textColor": "#FFFFFF", "enabled": true, "sortOrder": 10},
+    {"id": "healthy_everyday", "eyebrow": "FEEL-GOOD FAVOURITES", "title": "Healthy meals that still feel like comfort food.", "subtitle": "Browse balanced options from local TiffinStash sellers.", "ctaLabel": "See healthy meals", "path": "/collections/healthy-meals", "imageAssetId": "hero_healthy", "backgroundColor": "#3F414A", "textColor": "#FFFFFF", "enabled": true, "sortOrder": 20},
+    {"id": "rasoi_essentials", "eyebrow": "STOCK THE RASOI", "title": "Snacks, sweets and pantry favourites.", "subtitle": "Add a little something extra to the week.", "ctaLabel": "Shop essentials", "path": "/pages/rasoi-essentials", "imageAssetId": "hero_rasoi", "backgroundColor": "#FEDC18", "textColor": "#0D0E15", "enabled": true, "sortOrder": 30}
+  ],
+  "collections": [
+    {"id": "punjabi", "title": "Punjabi", "subtitle": "Rich, hearty favourites", "path": "/collections/punjabi-tiffin-service", "imageAssetId": "cuisine_punjabi", "enabled": true, "sortOrder": 10},
+    {"id": "gujarati", "title": "Gujarati", "subtitle": "Sweet, savoury, home-style", "path": "/collections/gujarati-tiffin-service", "imageAssetId": "cuisine_gujarati", "enabled": true, "sortOrder": 20},
+    {"id": "swaminarayan", "title": "Swaminarayan", "subtitle": "Comforting and familiar", "path": "/collections/swaminarayan", "imageAssetId": "cuisine_swaminarayan", "enabled": true, "sortOrder": 30},
+    {"id": "south_indian", "title": "South Indian", "subtitle": "Bright, warming flavours", "path": "/collections/south-indian", "imageAssetId": "cuisine_south_indian", "enabled": true, "sortOrder": 40},
+    {"id": "jain", "title": "Jain", "subtitle": "Mindfully prepared", "path": "/collections/jain", "imageAssetId": "cuisine_jain", "enabled": true, "sortOrder": 50},
+    {"id": "nigerian", "title": "Nigerian", "subtitle": "Bold everyday favourites", "path": "/collections/nigerian", "imageAssetId": "cuisine_nigerian", "enabled": true, "sortOrder": 60},
+    {"id": "pakistani", "title": "Pakistani", "subtitle": "Deeply comforting classics", "path": "/collections/pakistani", "imageAssetId": "cuisine_pakistani", "enabled": true, "sortOrder": 70},
+    {"id": "north_indian", "title": "North Indian", "subtitle": "Classic homestyle meals", "path": "/collections/north-indian", "imageAssetId": "cuisine_north_indian", "enabled": true, "sortOrder": 80},
+    {"id": "indo_chinese", "title": "Indo-Chinese", "subtitle": "Street-food inspired", "path": "/collections/indo-chinese", "imageAssetId": "cuisine_indo_chinese", "enabled": true, "sortOrder": 90}
+  ],
+  "productRails": [
+    {"id": "best_sellers", "title": "Loved across the GTA", "subtitle": "Popular kitchens to start with", "enabled": true, "sortOrder": 10, "maxItems": 6},
+    {"id": "quick_starts", "title": "Choose your kind of week", "subtitle": "Current choices and prices open securely on Shopify", "enabled": true, "sortOrder": 20, "maxItems": 6}
+  ],
+  "products": [
+    {"id": "indias_flavour", "railId": "best_sellers", "title": "India’s Flavour", "subtitle": "Browse current tiffin plans", "badge": "Popular", "priceLabel": "View plans", "path": "/collections/all?gf_433035=India%27s+Flavour", "imageAssetId": "seller_indias_flavour", "cuisine": "North Indian", "diet": "Mixed", "cities": ["All areas"], "enabled": true, "sortOrder": 10},
+    {"id": "lals_kitchen", "railId": "best_sellers", "title": "Lal’s Kitchen", "subtitle": "See this week’s choices", "badge": "Local favourite", "priceLabel": "View plans", "path": "/collections/lals-kitchen", "imageAssetId": "seller_lals_kitchen", "cuisine": "Punjabi", "diet": "Mixed", "cities": ["All areas"], "enabled": true, "sortOrder": 20},
+    {"id": "krishnas_kitchen", "railId": "best_sellers", "title": "Krishna’s Kitchen", "subtitle": "Flexible homestyle meals", "badge": "Customer pick", "priceLabel": "View plans", "path": "/collections/krishnas-kitchen", "imageAssetId": "seller_krishnas_kitchen", "cuisine": "Gujarati", "diet": "Veg", "cities": ["All areas"], "enabled": true, "sortOrder": 30},
+    {"id": "tiffin_plans", "railId": "quick_starts", "title": "Everyday tiffin plans", "subtitle": "Trial, weekly and monthly choices", "badge": "Tiffins", "priceLabel": "Browse", "path": "/collections/tiffins", "imageAssetId": "hero_tiffin", "cuisine": "Indian", "diet": "Mixed", "cities": ["All areas"], "enabled": true, "sortOrder": 10},
+    {"id": "healthy_meals", "railId": "quick_starts", "title": "Healthy meals", "subtitle": "Balanced choices for busy days", "badge": "Healthy", "priceLabel": "Browse", "path": "/collections/healthy-meals", "imageAssetId": "hero_healthy", "cuisine": "Indian", "diet": "Mixed", "cities": ["All areas"], "enabled": true, "sortOrder": 20},
+    {"id": "rasoi", "railId": "quick_starts", "title": "Rasoi Essentials", "subtitle": "Snacks, sweets and pantry picks", "badge": "Extras", "priceLabel": "Shop", "path": "/pages/rasoi-essentials", "imageAssetId": "hero_rasoi", "cuisine": "Indian", "diet": "Mixed", "cities": ["All areas"], "enabled": true, "sortOrder": 30}
+  ],
+  "quickLinks": [
+    {"id": "all_tiffins", "title": "All tiffins", "subtitle": "Explore every available meal plan", "icon": "restaurant-outline", "path": "/collections/tiffins", "enabled": true, "sortOrder": 10},
+    {"id": "healthy", "title": "Healthy meals", "subtitle": "Find balanced everyday choices", "icon": "leaf-outline", "path": "/collections/healthy-meals", "enabled": true, "sortOrder": 20},
+    {"id": "taste_drive", "title": "Taste Drive", "subtitle": "Try different kitchens before settling in", "icon": "sparkles-outline", "path": "/collections/taste-drive", "enabled": true, "sortOrder": 30},
+    {"id": "rasoi", "title": "Rasoi Essentials", "subtitle": "Shop snacks, sweets and add-ons", "icon": "basket-outline", "path": "/pages/rasoi-essentials", "enabled": true, "sortOrder": 40}
+  ],
+  "homeSections": [
+    {"id": "hero", "type": "banners", "title": "", "subtitle": "", "referenceId": "", "enabled": true, "sortOrder": 10},
+    {"id": "cuisines", "type": "collections", "title": "What feels like home?", "subtitle": "Browse by cuisine", "referenceId": "", "enabled": true, "sortOrder": 20},
+    {"id": "best_sellers", "type": "product_rail", "title": "", "subtitle": "", "referenceId": "best_sellers", "enabled": true, "sortOrder": 30},
+    {"id": "quick_links", "type": "quick_links", "title": "Start exploring", "subtitle": "Shortcuts to the full Shopify catalogue", "referenceId": "", "enabled": true, "sortOrder": 40},
+    {"id": "support", "type": "message", "title": "A real team, when you need us.", "subtitle": "Questions about plans, orders or delivery? We’re here to help.", "referenceId": "general_support", "enabled": true, "sortOrder": 50}
+  ],
+  "copy": {
+    "browse_eyebrow": "FIND YOUR FLAVOUR",
+    "browse_title": "What are you craving?",
+    "browse_body": "Search the featured picks, then continue on Shopify for current plans, availability and delivery choices.",
+    "browse_search_placeholder": "Search kitchens, cuisines or meals…",
+    "browse_empty_title": "Nothing in this shortlist yet.",
+    "browse_empty_body": "Try a different search or open the full Shopify catalogue.",
+    "plan_eyebrow": "A LITTLE LESS MEAL ADMIN",
+    "plan_title": "Your week, made easier.",
+    "plan_body": "View orders securely in your Shopify account. For a skip, pause or delivery change, send the team a request.",
+    "plan_primary_cta": "Open my Shopify account",
+    "plan_secondary_cta": "Request a plan change",
+    "plan_disclaimer": "Requests are not automatic. Your existing schedule stays unchanged until TiffinStash confirms it.",
+    "orders_eyebrow": "YOUR TIFFINSTASH ORDERS",
+    "orders_title": "Everything you ordered, in one secure place.",
+    "orders_body": "Sign in through Shopify to see orders connected to your account. Login and payment details remain on Shopify pages.",
+    "orders_cta": "View my orders",
+    "account_eyebrow": "YOUR EVERYDAY, YOUR WAY",
+    "account_title": "Hello, foodie.",
+    "account_body": "Continue securely with your Shopify account.",
+    "account_cta": "Sign in on Shopify",
+    "favourites_title": "Saved favourites",
+    "city_title": "Browsing area",
+    "reminder_title": "Personal meal reminder",
+    "reminder_sheet_title": "A little meal check-in",
+    "reminder_sheet_body": "A personal weekday reminder in your phone’s local time. It is not a delivery notification or a meal-plan booking.",
+    "city_sheet_title": "Where are you browsing?",
+    "city_sheet_body": "Choose an area to personalize browsing. Final address eligibility is confirmed on Shopify.",
+    "shopify_truth_note": "Current prices, plan options, delivery dates, add-ons and address eligibility are always confirmed on Shopify.",
+    "offline_title": "Showing saved content",
+    "offline_body": "We couldn’t refresh the spreadsheet just now. You can keep browsing with the last saved version.",
+    "refreshing_label": "Refreshing app content…"
+  },
+  "contactActions": [
+    {"id": "general_support", "title": "Talk to TiffinStash", "subtitle": "Meal plans, orders and delivery help", "channel": "whatsapp", "recipient": "", "subject": "", "body": "Hi TiffinStash! I need help with my meal plan.", "enabled": true, "sortOrder": 10},
+    {"id": "plan_change", "title": "Request a plan change", "subtitle": "Include your order number and requested dates", "channel": "email", "recipient": "info@tiffinstash.com", "subject": "Meal plan change request", "body": "Hi TiffinStash,\n\nI would like to request a change to my meal plan.\n\nOrder number:\nRequested dates or change:\n\nThank you.", "enabled": true, "sortOrder": 20},
+    {"id": "delivery_help", "title": "Ask about a delivery", "subtitle": "Include your order number", "channel": "whatsapp", "recipient": "", "subject": "", "body": "Hi TiffinStash, I need an update on my delivery. My order number is:", "enabled": true, "sortOrder": 30},
+    {"id": "privacy_request", "title": "Account and privacy requests", "subtitle": "Email the TiffinStash team", "channel": "email", "recipient": "info@tiffinstash.com", "subject": "Account or privacy request", "body": "Hi TiffinStash,\n\nI would like help with the following account or privacy request:\n\n", "enabled": true, "sortOrder": 40}
+  ],
+  "featureFlags": {
+    "favorites": true,
+    "cityPicker": true,
+    "localReminders": true,
+    "inAppMessages": true,
+    "pullToRefresh": true,
+    "showAnnouncement": true
+  },
+  "messages": [
+    {"id": "welcome", "title": "30+ trusted sellers. 100+ meal options.", "body": "Lunch and dinner delivery across the GTA.", "style": "info", "ctaLabel": "Browse all", "path": "/collections/all", "startsAt": "2026-01-01T00:00:00.000Z", "endsAt": "2027-12-31T23:59:59.000Z", "enabled": true, "sortOrder": 10}
+  ],
+  "cities": ["All areas", "Ajax", "Bowmanville", "Brampton", "Burlington", "Courtice", "East York", "Etobicoke", "Maple", "Markham", "Milton", "Mississauga", "North York", "Oakville", "Oshawa", "Pickering", "Richmond Hill", "Scarborough", "Thornhill", "Toronto", "Vaughan", "Whitby", "Woodbridge"]
+}

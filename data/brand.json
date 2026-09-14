@@ -1,0 +1,35 @@
+{
+  "name": "TiffinStash",
+  "revision": "live-theme-2026-09-12",
+  "source": {
+    "themeArchive": "theme_export__tiffinstash-com-live-theme-20-12-24__12SEP2026-0340am.zip",
+    "themeVersion": "Shopify Debut 17.13.0 with LayoutHub homepage",
+    "logoArtwork": "Copied from the supplied live theme export"
+  },
+  "font": {
+    "family": "Poppins",
+    "weights": [400, 500, 600, 700, 800]
+  },
+  "palette": {
+    "orange": "#DE5200",
+    "lightOrange": "#FF9D2D",
+    "yellow": "#FEDC18",
+    "charcoal": "#3F414A",
+    "black": "#0D0E15",
+    "white": "#FFFFFF"
+  },
+  "ui": {
+    "bg": "#FFFFFF",
+    "paper": "#FFFFFF",
+    "ink": "#0D0E15",
+    "muted": "#3F414A",
+    "primary": "#DE5200",
+    "primaryText": "#0D0E15",
+    "primaryInk": "#BE4500",
+    "primarySoft": "#FFF2E9",
+    "line": "#E6E6E8",
+    "neutral": "#F6F6F7",
+    "error": "#AC2828"
+  },
+  "note": "Core palette, Poppins and logo artwork were verified against the supplied current live-theme export. PrimaryInk, soft tints, borders and neutrals are derived interface colours."
+}
