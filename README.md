@@ -1,6 +1,5 @@
 # TiffinStash Mobile 5.0
 
-
 TiffinStash Mobile is an Expo React Native app for iPhone and Android. It gives the current Shopify store a polished mobile shell while keeping ordering, subscriptions, delivery choices, paid add-ons, cart, login and checkout inside Shopify.
 
 The app-owned experience is controlled by the [TiffinStash Mobile App Control](https://docs.google.com/spreadsheets/d/1JlwEy-d50j9wXaw_q0TYmX2fzpOhARNB7acZhisnbVc/edit) Google Sheet. Banner and collection images, featured products, navigation, home-section order, copy, contact-email templates, WhatsApp templates, cities, feature flags, announcements and maintenance mode can change without an app-store release.
