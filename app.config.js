@@ -31,6 +31,9 @@ module.exports = () => {
       ['expo-splash-screen', {backgroundColor: '#FFFFFF', image: './assets/logo.png', imageWidth: 230, resizeMode: 'contain'}]
     ],
     web: {bundler: 'metro', name: 'TiffinStash Preview', favicon: './assets/icon.png'},
+    experiments: {
+      baseUrl: process.env.BASE_URL || ''
+    },
     extra: {
       appVariant: production ? 'production' : 'preview',
       existingAppStoreId: '6505018028',
